@@ -29,11 +29,21 @@ const MobileNavBar = () => {
 
       {nav && <div className="fixed top-[12vh] z-[100000] h-[70vh] bg-white flex flex-col w-full text-2xl p-4 md:p-10 py-10  opacity-100 backdrop-blur-md font-Montaga uppercase gap-10 ">
 
-        <a href="#programme" >Itinerary</a>
-        <a href="#our-story" >our story</a>
-        <a href="#rsvp" >RSVP</a>
-        <a href="#gallery" >Gallery</a>
-        <a href="#gifts" >GIFTS</a>
+        <a href="#programme" onClick={() => {
+          toggleNav();
+        }}>Itinerary</a>
+        <a href="#our-story" onClick={() => {
+          toggleNav();
+        }}>our story</a>
+        <a href="#rsvp" onClick={() => {
+          toggleNav();
+        }}>RSVP</a>
+        <a href="#gallery" onClick={() => {
+          toggleNav();
+        }}>Gallery</a>
+        <a href="#gifts" onClick={() => {
+          toggleNav();
+        }}>GIFTS</a>
       </div>}
     </>
   );
