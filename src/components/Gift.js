@@ -20,7 +20,7 @@ const Gift = () => {
         className="block  px-10 py-3 font-Montaga bg-[#CB872A] text-white text-xl rounded-full mt-10 "
       >
         {" "}
-        Visit Registry
+        Visit Gift Registry
       </a>
     </section>
   );

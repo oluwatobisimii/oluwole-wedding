@@ -60,7 +60,7 @@ const OurStory = () => {
               It all started from a casual introduction by a mutual friend
               during NYSC. We got talking and spoke more about career, academics
               and she helped with a financial model I was trying to build for a
-              friend. Afterwards, we served in two committees in NCCF were we
+              friend. Afterwards, we served in two committees in NCCF where we
               had opportunity to interact often. Fast forward we became close
               friends and got fond of each other and along the line we decided
               to journey together forever. <br />
